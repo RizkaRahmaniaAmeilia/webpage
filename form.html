@@ -1,0 +1,34 @@
+<html>
+     <head><title>Formulir Data Pribadi</title></head>
+     <body>
+<h1> Formulir </h1>
+          <form action="cetak.php" method="post">
+            <p>
+Nama            : <input type="text" name="nama"/></p>
+<p>
+Alamat          : <input type="text" name="alamat"/></p>
+<p>
+TTL            : <input type="text" name="ttl"/></p>
+<p>
+Jenis Kelamin :</p>
+<input type="radio" name="sex" value="man"/>Laki - laki
+                <input type="radio" name="sex" value="woman"/>Perempuan
+            <p>
+Pekerjaan :</p>
+<select name="pekerjaan">
+                <option value="pelajar">Pelajar</option>
+                <option value="Peg_negri">Pegawai Negeri</option>
+                <option value="pengusaha">Pengusaha</option>
+                <option value="Buruh">Buruh</option>
+                </select>
+            <p>
+Hobby           :</p>
+<input type="checkbox" name="hobby" value="Makan"/>Makan
+              <input type="checkbox" name="hobby" value="Main Komputer"/>Main Komputer
+              <input type="checkbox" name="hobby" value="Tidur"/>Tidur
+              <input type="checkbox" name="hobby" value="online"/>Internetan
+            <p>
+<input type="submit" value="Submit"/>
+              <input type="reset" value="Input Ulang"/></p>
+</form>
+</body>
